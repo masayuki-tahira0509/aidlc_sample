@@ -1,0 +1,40 @@
+{
+  "stage": "code-generation",
+  "unit": null,
+  "upstream_ids": [
+    "FR1.1", "FR1.2", "FR1.3", "FR1.4",
+    "FR2.1", "FR2.2", "FR2.3", "FR2.4", "FR2.5", "FR2.6",
+    "FR3.1", "FR3.2", "FR3.3",
+    "FR4.1", "FR4.2",
+    "FR5.1", "FR5.2",
+    "NFR1", "NFR5", "NFR7",
+    "NFR-SEC.3", "NFR-SEC.4", "NFR-SEC.6", "NFR-SEC.10"
+  ],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/web/AnnouncementController.java" },
+    { "id": "FR1.2", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/repository/AnnouncementRepository.java" },
+    { "id": "FR1.3", "status": "OK", "target": "frontend/src/components/AnnouncementList.tsx" },
+    { "id": "FR1.4", "status": "OK", "target": "frontend/src/components/AnnouncementList.tsx" },
+    { "id": "FR2.1", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "FR2.2", "status": "OK", "target": "frontend/src/components/AnnouncementFormModal.tsx" },
+    { "id": "FR2.3", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/domain/Announcement.java" },
+    { "id": "FR2.4", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "FR2.5", "status": "OK", "target": "frontend/src/styles.css" },
+    { "id": "FR2.6", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "FR3.1", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "FR3.2", "status": "OK", "target": "frontend/src/components/AnnouncementFormModal.tsx" },
+    { "id": "FR3.3", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/domain/Announcement.java" },
+    { "id": "FR4.1", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/web/AnnouncementController.java" },
+    { "id": "FR4.2", "status": "OK", "target": "frontend/src/components/DeleteConfirmModal.tsx" },
+    { "id": "FR5.1", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/domain/Announcement.java" },
+    { "id": "FR5.2", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/domain/Category.java" },
+    { "id": "NFR1", "status": "OK", "target": "backend/src/main/resources/application.properties" },
+    { "id": "NFR1.1", "status": "OK", "target": "backend/src/main/resources/application.properties" },
+    { "id": "NFR5", "status": "OK", "target": "frontend/.eslintrc.cjs" },
+    { "id": "NFR7", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "NFR-SEC.3", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/service/AnnouncementService.java" },
+    { "id": "NFR-SEC.4", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/repository/AnnouncementRepository.java" },
+    { "id": "NFR-SEC.6", "status": "OK", "target": "frontend/src/components/AnnouncementFormModal.tsx" },
+    { "id": "NFR-SEC.10", "status": "OK", "target": "backend/src/main/java/com/example/announcementboard/web/AnnouncementController.java" }
+  ]
+}

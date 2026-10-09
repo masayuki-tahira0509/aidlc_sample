@@ -1,0 +1,16 @@
+{
+  "stage": "nfr-requirements",
+  "unit": "all",
+  "upstream_ids": ["NFR1", "NFR2", "NFR3", "NFR4", "NFR5", "NFR6", "NFR7", "NFR8", "NFR9"],
+  "coverage": [
+    { "id": "NFR1", "status": "OK", "target": "NFR1.1, NFR1.2, NFR1.3, NFR1.4" },
+    { "id": "NFR2", "status": "OK", "target": "NFR-SEC.9, NFR6.1, performance/observability local-execution scope" },
+    { "id": "NFR3", "status": "OK", "target": "tech-stack-decisions ADR-1, ADR-2, ADR-3" },
+    { "id": "NFR4", "status": "OK", "target": "tech-stack-decisions (JUnit 5 + Spring Boot Test)" },
+    { "id": "NFR5", "status": "OK", "target": "tech-stack-decisions (ESLint + Prettier)" },
+    { "id": "NFR6", "status": "OK", "target": "NFR6.1, NFR6.2, NFR6.3, NFR6.4" },
+    { "id": "NFR7", "status": "OK", "target": "NFR1.2, NFR9.3, NFR7-OBS.1, tech-stack layered separation" },
+    { "id": "NFR8", "status": "OK", "target": "NFR9.2, NFR9.3" },
+    { "id": "NFR9", "status": "OK", "target": "NFR9.1, NFR9.2" }
+  ]
+}

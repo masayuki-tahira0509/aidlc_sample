@@ -1,0 +1,5 @@
+# シェルスクリプトは常に LF（EC2/Linux で実行するため、CRLF だと動かない）
+*.sh text eol=lf
+
+# Maven Wrapper（Unix 側スクリプト）も LF 固定
+mvnw text eol=lf

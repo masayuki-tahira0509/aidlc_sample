@@ -1,0 +1,18 @@
+[Unit]
+Description=Announcement Board Backend (Spring Boot)
+After=network.target
+
+[Service]
+User=announcement
+WorkingDirectory=/opt/announcement
+# H2 のファイルは WorkingDirectory 配下の ./data に作られる（EBS に永続化）
+ExecStart=/usr/bin/java -jar /opt/announcement/app.jar
+SuccessExitStatus=143
+Restart=on-failure
+RestartSec=5
+# 同一オリジン運用（Nginx が同じホストで / と /api を配信）では CORS 設定は不要。
+# フロントを別オリジン（S3+CloudFront 等）に分離する場合のみ、次の行のコメントを外して設定する:
+# Environment=APP_CORS_ALLOWED_ORIGIN=https://<フロントのドメイン>
+
+[Install]
+WantedBy=multi-user.target
